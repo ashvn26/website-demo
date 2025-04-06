@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Education Timeline</title>
+  
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: black;
+      color: #b74b4b;
+      padding: 40px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      padding: 20px 40px;
+      background-color: black;
+      margin-bottom: 30px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-right: 15px;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover,
+    .navbar a.active {
+    
+      color: #b74b4b;
+    }
+
+    .education-section {
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .education-section h2 {
+      color: #b74b4b;
+      margin-bottom: 30px;
+      font-size: 28px;
+      font-weight: 700;
+    }
+
+    .timeline {
+      position: relative;
+      padding-left: 25px;
+      border-left: 3px solid #b74b4b;
+    }
+
+    .timeline-box {
+      position: relative;
+      margin-bottom: 30px;
+      padding-left: 20px;
+    }
+
+    .timeline-box .dot {
+      position: absolute;
+      left: -11px;
+      top: 5px;
+      width: 14px;
+      height: 14px;
+      background: #b74b4b;
+      border-radius: 50%;
+      border: 3px solid #b74b4b;
+      box-shadow: 0 0 0 2px #b74b4b;
+    }
+
+    .timeline-box .content {
+      background: white;
+      padding: 15px 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .timeline-box .content h4 {
+      color: #1a5f3f;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+
+    .timeline-box .content h3 {
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+
+    .timeline-box .content p {
+      font-size: 14px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="http://127.0.0.1:5500/protofile.html" target="_blank" class="active">Home</a>
+    <a href="http://127.0.0.1:5500/about.html#" target="_blank">About</a>
+    <a href="http://127.0.0.1:5500/skills.html" target="_blank">Skills</a>
+    <a href="http://127.0.0.1:5500/edu.html" target="_blank">Education</a>
+    <a href="http://127.0.0.1:5500/con.html" target="_blank">Contact</a>
+  </nav>
+
+  <section class="education-section">
+    <h2>EDUCATION</h2>
+    <div class="timeline">
+
+      <div class="timeline-box">
+        <span class="dot"></span>
+        <div class="content">
+          <h4>2020 - 2022</h4>
+          <h3>Narayana</h3>
+          <p>I am Ashwin .I studied at Narayana High School, a place filled with both challenges and unforgettable memories. The school was known for its welcoming atmosphere, dedicated teachers, and a strong emphasis on academics and extracurricular activities. The classrooms were always buzzing with energy, and the teachers encouraged creative thinking and teamwork. One of my favorite parts was the library—it was a quiet haven where I could dive into books and discover new ideas. I made lifelong friends there, and we often worked together on projects, helped each other during exams, and participated in school events. Horizon High wasn’t just a place to learn—it was a community that helped shape who I am today.</p>
+        </div>
+      </div>
+
+      <div class="timeline-box">
+        <span class="dot"></span>
+        <div class="content">
+          <h4>2022 - 2024</h4>
+          <h3>Narayana Junior College</h3>
+          <p>I studied at Narayana Junior college, a place filled with both challenges and unforgettable memories. The school was known for its welcoming atmosphere, dedicated teachers, and a strong emphasis on academics and extracurricular activities. The classrooms were always buzzing with energy, and the teachers encouraged creative thinking and teamwork. One of my favorite parts was the library—it was a quiet haven where I could dive into books and discover new ideas. I made lifelong friends there, and we often worked together on projects, helped each other during exams, and participated in school events. Horizon High wasn’t just a place to learn—it was a community that helped shape who I am today..</p>
+        </div>
+      </div>
+
+      <div class="timeline-box">
+        <span class="dot"></span>
+        <div class="content">
+          <h4>2024 - 2028</h4>
+          <h3>Amrita Vishwa Vidyapeetham</h3>
+          <p>I’m currently studying at Amrita Vishwa Vidyapeetham, and it’s been an amazing journey so far. The campus is vibrant and full of life, with students from all kinds of backgrounds bringing unique perspectives to everything we do. I’m majoring in computer science, so most of my time is spent between coding labs, group projects, and trying to beat deadlines. The professors are super knowledgeable and supportive, always encouraging us to dig deeper and think critically. What I love most, though, is the balance between academics and campus life—there are clubs, events, and late-night hangouts that make every day exciting. It’s not always easy, but it’s definitely worth it..</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+</body>
+</html>
